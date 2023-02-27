@@ -13,6 +13,7 @@ export class AppComponent implements OnInit{
   title = 'angular-app'
   products: IProduct[] = []
   loading = false
+  term = ''
 
   constructor(private productsService: ProductService) {
   }
